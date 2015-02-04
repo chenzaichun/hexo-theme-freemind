@@ -1,4 +1,4 @@
-slogan: "Yet another bootstrap theme."
+slogan: 
 
 menu:
   - title: Archives
@@ -17,6 +17,10 @@ menu:
     url: about
     intro: "About me."
     icon: "fa fa-user"
+  - title: rss
+    url: atom.xml
+    intro: "Atom 1.0 feed"
+    icon: "fa fa-rss"
 
 links:
   - title: Freemind
@@ -24,12 +28,12 @@ links:
     intro: "Freemind's Github repository."
     icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com/wzpan
+    url: http://www.github.com/chenzaichun
     intro: "My Github account."
     icon: "fa fa-github"
-  - title: "My LinkedIn"
-    url: http://www.linkedin.com/pub/weizhou-pan/5b/8a0/161
-    intro: "My Linkin account."
+  - title: "GSGUNDAM砍柴工"
+    url: http://http://gsgundam.com/
+    intro: "GSGUNDAM砍柴工的博客"
     icon: "fa fa-linkedin"
 
 widgets:
@@ -39,8 +43,8 @@ widgets:
 - recent_posts  
 - links
 
-rss: 
+rss: atom.xml
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname:
-google_analytics:
+duoshuo_shortname: yesokay
+google_analytics: UA-31585781-1
