@@ -48,3 +48,11 @@ fancybox: true
 favicon: favicon.png
 duoshuo_shortname: yesokay
 google_analytics: UA-31585781-1
+
+# Analytics
+google_analytics:
+  enable: true
+  siteid: UA-31585781-1
+baidu_tongji:
+  enable: false
+  siteid:
